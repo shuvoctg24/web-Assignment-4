@@ -1,0 +1,353 @@
+body{
+    margin: 0 auto;
+    font-family: 'Poppins', sans-serif;
+    color: #101820ff;
+}
+
+.container {
+    margin: 2% 10%;
+}
+
+/* Cover Section */
+
+.cover-area {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    color: white;
+    width: 100%;
+    height: 520px;
+    background: linear-gradient(to bottom right, #000099 0%, #0066ff 100%);
+    border-radius: 30px;
+}
+.main-title-area {
+    width: 500px;
+    height: 400px;
+    margin: 50px 0 0 80px;
+}
+.main-title-area h1 {
+    margin: 10px 0;
+    padding: 0;
+    font-size: 60px;
+    line-height: 70px;
+}
+.main-title-area p {
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.watch-butn {
+    border: none;
+    background-color: purple;
+    padding: 15px 25px;
+    border-radius: 25px;
+    color: white;
+}
+.watch-butn a {
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    margin-right: 10px;
+}
+.cover-image img{
+    width: 100%;
+    height: 95%;
+}
+
+
+/* Match Section */
+
+.main-div{
+    width: 100%;
+    display: flex;
+    margin-top: 80px;
+}
+.menu {
+    width: 30%;
+    margin-right: 1.5%;
+    height: 280px;
+    border-radius: 10px;
+    background-color: black;
+}
+.menu-item{
+    margin-top: 35px;
+}
+.menu-item .menu-button{
+    width: 80%;
+    height: 30%;
+    padding: 15px 30px;
+    margin: 10px 25px;
+    border-radius: 5px;
+}
+.menu-item .menu-button a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+}
+.menu-item .menu-button-3{
+    width: 80%;
+    height: 30%;
+    padding: 15px 30px;
+    margin: 10px 25px;
+    background-color: purple;
+    border-radius: 5px;
+}
+.menu-item .menu-button-3 a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+.grid-item {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2%;
+}
+.blogs-item{
+    border: 1px solid lightgray;
+    border-radius: 10px;
+}
+.info-item{
+    margin-left: 20px;
+}
+.blogs-item img{
+    width: 100%;
+    border-radius: 10px;
+}
+.transfer-button {
+    border: 1px solid;
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 4px 15px;
+    margin: 5px 0;
+}
+.info-item p{
+    padding: 0;
+}
+.information { 
+    display: flex;
+    padding-right: 10px;
+    margin: 10px 0;
+}
+.comment {
+    margin-left: 30px;
+}
+
+
+/* footer section */
+
+footer h1{
+    color: white;
+    text-align: center;
+    padding-top: 80px;
+}
+footer hr{
+    margin: 2% 10%;
+    color: grey;
+}
+footer {
+    height: 350px;
+    margin-top: 130px;
+    background: linear-gradient(to bottom right, #000099 0%, #0066ff 100%);
+}
+.footer-item{
+    margin: 0 10%;
+    text-align: center;
+    padding-top: 20px;
+}
+.footer-item a{
+    text-decoration: none;
+    color: lightgray;
+    font-size: 14px;
+    padding: 0 20px; 
+}
+.footer-icon{
+    margin: 2% 10%;
+    text-align: center;
+    color: purple;
+}
+.footer-icon i{
+    padding: 20px;
+}
+
+
+
+
+
+
+
+/* Media Queries small device */
+
+/* Cover Section start */
+@media screen and (max-width: 600px){
+    .container {
+        margin: 0 auto;
+    }
+    .cover-area {
+        width: 600px;
+        height: 720px;
+        display: block;
+    }
+
+    .cover-image{
+        width: 200px;
+        height: 200px;
+    }
+    .main-title-area {
+        width: 500px;
+        height: 266px;
+        margin: auto;
+    }
+    .main-title-area h1 {
+        margin: 6px 0;
+        padding-top: 75px;
+        font-size: 25px;
+        line-height: 30px;
+        }
+        .cover-image img {
+            width: 280%;
+            height: 230%;
+        }
+        .watch-butn {
+            border: none;
+            background-color: purple;
+            padding: 10px 15px;
+            border-radius: 25px;
+            color: white;
+        }
+        /* Cover Section End */
+
+
+        /* Match Section strat */
+        .main-div{
+            display: block;
+        }
+        .menu {
+            display: grid;
+            width: 100%;
+            height: 280px;
+            border-radius: 10px;
+            align-items: center;
+            background-color: #ffff;
+            justify-content: space-evenly;
+            align-content: space-between;
+            }
+
+.grid-item{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+}
+footer {
+    height: 350px;
+    margin-top: 630px;
+    background-color: #101820ff;
+}
+.footer-item {
+    margin: 3px 0;
+    text-align: center;
+    display: grid;
+    align-content: center;
+}
+footer h1 {
+    color: white;
+    text-align: center;
+    padding-top: 35px;
+}
+}
+/* Match Section End */
+
+
+
+
+
+/* Media Queries medium device */
+
+@media screen and (min-width: 600px) and (max-width: 768px){
+    .container {
+        margin: 0 auto;
+    }
+    .cover-area {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        color: white;
+        width: 100%;
+        height: 314px;
+        background: linear-gradient(to bottom right, #000099 0%, #0066ff 100%);
+        border-radius: 30px;
+        align-items: center;
+        align-content: space-around;
+        justify-items: center;
+    }
+    .main-title-area h1 {
+        padding: 0;
+        font-size: 24px;
+        line-height: 30px;
+    }
+    
+    .main-title-area p {
+        font-size: 12px;
+        margin-bottom: 20px;
+    }
+
+    .main-title-area {
+        width: 300px;
+        height: 300px;
+    }
+    .watch-butn {
+        border: none;
+        background-color: purple;
+        padding: 10px 14px;
+        border-radius: 25px;
+        color: white;
+    }
+    .cover-image img {
+        width: 78%;
+        height: 100%;
+    }
+    .watch-butn a {
+        font-size: 12px;
+        text-decoration: none;
+        color: white;
+        margin-right: 10px;
+    }
+    .main-div {
+        display: grid;
+        justify-content: space-between;
+        justify-items: center;
+        align-content: space-around;
+    }
+    .menu {
+        display: inline-block;
+        border-radius: 10px;
+        align-items: center;
+        background-color: #ffff;
+        justify-content: space-evenly;
+        align-content: space-between;
+        }
+
+        .grid-item{
+            width: 100%;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(3, 1fr);
+        }
+        footer {
+                height: 300px;
+                margin-top: 185px;
+                background-color: rgb(16, 24, 32);
+            }
+
+        .footer-item {
+            margin: -6px 10%;
+            text-align: center;
+        }
+
+        footer h1 {
+            color: white;
+            text-align: center;
+            padding-top: 35px;
+        }
+    }
