@@ -108,7 +108,7 @@ body{
 .blogs-item{
     border: 1px solid lightgray;
     border-radius: 10px;
-    height: 220px;
+    height: 190px;
 }
 .flag-item{
     display: flex;
@@ -118,6 +118,7 @@ body{
 }
 .flag-item h1{
     padding: 0 10px;
+    margin: 0;
 }
 .flag-item img{
     width: 85px;
@@ -125,6 +126,13 @@ body{
 }
 .flag-item2{
     text-align: center;
+    margin-top: 0;
+}
+.flag-item2 h4{
+    margin-top: 10px;
+}
+.flag-item2 h5{
+    margin: 0;
 }
 /* Match Section End */
 
