@@ -103,7 +103,7 @@ body{
     width: 100%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 2%;
+    gap: 5% 2%;
 }
 .blogs-item{
     border: 1px solid lightgray;
