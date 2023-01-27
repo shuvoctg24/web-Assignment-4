@@ -143,7 +143,7 @@ footer hr{
 footer {
     height: 350px;
     margin-top: 130px;
-    background-color: #101820ff;
+    background: linear-gradient(to bottom right, #000099 0%, #0066ff 100%);
 }
 .footer-item{
     margin: 0 10%;
